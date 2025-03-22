@@ -10,7 +10,7 @@ export default function Hero() {
     <section className="bg-[url('/images/hero-bg.png')] bg-no-repeat bg-cover xl:bg-[100%_100%] bg-center pt-10 pb-14 sm:pt-12 sm:pb-16 md:pt-14 md:pb-28">
       <div className="container mx-auto px-4 grid grid-cols-12 items-center">
         <div className="w-full md:w-[85%] col-span-12 lg:col-span-6">
-            <h1 className="font-beatrice font-normal text-white text-2xl sm:text-3xl md:text-4xl leading-[1.3] ">Regain Control Over Your <span className="font-semibold">Hands with DextEgg</span> – For an Active Life</h1>
+            <h1 className="font-beatrice font-normal text-white text-2xl sm:text-3xl md:text-[40px] leading-[1.3] ">Regain Control Over Your <span className="font-semibold">Hands with DextEgg</span> – For an Active Life</h1>
             <p className="font-normal text text-sm md:text-lg text-white leading-normal mt-2 mb-8">Our interactive therapy with the DextEgg System enhances your fine motor skills, allowing you to perform daily movements with confidence and ease.</p>
           <div className="flex flex-row items-center">
             <a className="font-bold text-sm sm:text-[15px] text-headText bg-[#BBCCC2] border-2 border-[#BBCCC2] max-w-[200px] w-full p-3 text-center rounded-md mr-4" href="#">Contact Us</a>
