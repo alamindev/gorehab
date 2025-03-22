@@ -17,6 +17,7 @@
 
 body {
   overflow-x: hidden;
+  --font-inter: var(--font-inter);
 }
 
 button {
