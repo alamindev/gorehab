@@ -10,8 +10,19 @@
   --color-primary: #ed3350;
   --shadow-3xl: 2px 2px 20px 0px #0000000a;
   --shadow-4xl: 0px 0px 20px 0px #eb4c6080;
+  --color-headText: #333331;
+
+
+}
+
+body {
+  overflow-x: hidden;
 }
 
 button {
   cursor: pointer;
+}
+
+.para-text {
+  color: #757575;
 }
