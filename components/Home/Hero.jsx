@@ -2,12 +2,15 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    // <section className="pt-6 space-y-10 w-[300px] h-[300px] relative" >
-    //   <Image src={"/images/coin-1.png"} alt="coin" fill />
-    //   <h2 className="text-5xl font-beatrice">Headering </h2>
-    // </section>
+
 
     <section className="bg-[url('/images/hero-bg.png')] bg-no-repeat bg-cover xl:bg-[100%_100%] bg-center pt-10 pb-14 sm:pt-12 sm:pb-16 md:pt-14 md:pb-28">
+
+{/* <div className="pt-6 space-y-10 w-[300px] h-[300px] relative" >
+      <img src={"/images/s1.png"} alt="coin" fill />
+      <h2 className="text-5xl font-beatrice">Headering </h2>
+    </div> */}
+
       <div className="container mx-auto px-4 grid grid-cols-12 items-center">
         <div className="w-full md:w-[85%] col-span-12 lg:col-span-6">
             <h1 className="font-beatrice font-normal text-white text-2xl sm:text-3xl md:text-[40px] leading-[1.3] ">Regain Control Over Your <span className="font-semibold">Hands with DextEgg</span> – For an Active Life</h1>

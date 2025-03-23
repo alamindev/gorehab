@@ -45,7 +45,7 @@ const About = () => {
                         About Us
                     </h1>
 
-                    <div className='max-w-4xl mx-auto mb-22'>
+                    <div className='max-w-4xl mx-auto mb-12 sm:mb-16 md:mb-18 lg:mb-22'>
                         <p className="font-light text text-sm md:text-lg text-[#757575] leading-normal mt-2 mb-6">
                             We are a young startup from the ARTORG Center for Biomedical Engineering Research at the University of Bern. Our goal is to redefine rehabilitation through innovative, interactive, and data-driven solutions, with our first solution being the DextEgg System.
                         </p>
@@ -70,11 +70,12 @@ const About = () => {
                     >
                         {teamMembers.map((member, index) => (
                             <SwiperSlide key={index} className="flex flex-col items-center justify-center text-center">
-                                <div className="relative">
+                                <div className="relative w-60 h-60 rounded-full mx-auto ">
+                                <img src="/images/image-circle.png" alt="image" className="absolute left-0 top-0 w-full h-full" />
                                     <img
                                         src={member.image}
                                         alt={member.name}
-                                        className="w-54 h-54 rounded-full mx-auto border-4 border-gray-300"
+                                        className="object-fit-cover rounded-full mx-auto "
                                     />
                                     
                                 </div>
