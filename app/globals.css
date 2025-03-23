@@ -27,3 +27,19 @@ button {
 .para-text {
   color: #757575;
 }
+
+.swiper-slide {
+  margin-bottom: 80px;
+}
+.swiper-pagination-bullet-active {
+  width: 35px !important;
+  height: 8px;
+  border-radius: 5px !important;
+  background: #699980 !important;
+}
+
+@media only screen and (max-width: 640px) {
+  .swiper-slide {
+    margin-bottom: 50px;
+  }
+}
