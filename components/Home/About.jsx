@@ -89,7 +89,7 @@ const About = () => {
                 <div className="relative w-60 h-60 rounded-full mx-auto ">
                   <Image
                     className="absolute left-0 top-0 w-full h-full"
-                    src={"/images/image-circle.png"}
+                    src={"/images/image-circle.svg"}
                     alt="shape two"
                     width={400}
                     height={400}
