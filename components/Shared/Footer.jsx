@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="pt-10 pb-10 px-4 md:pt-16 lg:pt-20 md:pb-16 relative  bg-[#283646] overflow-hidden">
+    <footer
+      id="newsletter"
+      className="pt-10 pb-10 px-4 md:pt-16 lg:pt-20 md:pb-16 relative  bg-[#283646] overflow-hidden"
+    >
       <Image
         className="absolute left-0 top-0 max-sm:size-[200px] max-sm:-ml-24"
         src={"/images/footer-union.svg"}

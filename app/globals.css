@@ -11,13 +11,15 @@
   --shadow-3xl: 2px 2px 20px 0px #0000000a;
   --shadow-4xl: 0px 0px 20px 0px #eb4c6080;
   --color-headText: #333331;
-
-
 }
 
 body {
   overflow-x: hidden;
   --font-inter: var(--font-inter);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 button {

@@ -1,6 +1,9 @@
 const Contact = () => {
   return (
-    <section className="bg-[#FAFAFA] py-12 md:py-24 lg:py-32 relative">
+    <section
+      id="contact"
+      className="bg-[#FAFAFA] py-12 md:py-24 lg:py-32 relative"
+    >
       <div className="container mx-auto px-4">
         <h1 className="max-w-xl mx-auto text-center font-beatrice font-semibold text-headText text-2xl sm:text-3xl md:text-[44px] leading-[1.3] mb-6">
           Get in touch with us. We're here to assist you.
